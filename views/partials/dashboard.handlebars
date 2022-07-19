@@ -1,0 +1,7 @@
+<main class="container-fluid d-flex justify-content-center my-5">
+   <div class="row row-cols-1 row-cols-lg-3 g-4 w-75">
+      {{#each products}}
+         {{> producto name=this.name src=this.src}}
+      {{/each}}
+   </div>
+</main>
