@@ -18,11 +18,11 @@ En el Apoyo Desafío - Mercado web encontrarás las imágenes correspondientes. 
 Las siguientes imágenes representan las interacciones que debe tener el sitio web una vez terminado el desafío.
 
 <p align="center">
-   <img src="./public/images/img01.png">
+   <img src="../assets/images/img01.png">
 </p>
 
 <p align="center">
-   <img src="./public/images/img02.png">
+   <img src="../assets/images/img02.png">
 </p>
 
 Para el control de datos en la aplicación, siéntete libre de ocupar la herramienta que más te acomode, por ejemplo: LocalStorage, un arreglo dentro del servidor, un archivo JSON gestionado con FileSystem, PostgreSQL con el paquete pg o la que creas conveniente.
