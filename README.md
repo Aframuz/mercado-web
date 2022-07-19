@@ -55,3 +55,4 @@ En caso de utilizar PostgreSQL, deberás dejar el archivo correspondiente a la b
 -  Nav
 -  req 4
 -  Modal
+-  tooltip ver carrito
