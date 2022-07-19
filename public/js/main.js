@@ -14,6 +14,10 @@ $(function () {
       const products = $(".added")
       modalBody.empty()
 
+      if (products.length === 0) {
+         modalBody.append("<p>No hay productos en el carrito</p>")
+      }
+
       products.each(function (index, product) {
          modalBody.append(`<div class="product col-4">
             <img src="${product.src}" alt="${product.name}" width="100%">
