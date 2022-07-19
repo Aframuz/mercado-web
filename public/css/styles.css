@@ -12,3 +12,8 @@ body {
    height: 15vw;
    object-fit: contain;
 }
+
+.nav > .btn {
+   color: antiquewhite;
+   background-color: #82ae67;
+}

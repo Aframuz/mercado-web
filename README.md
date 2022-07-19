@@ -49,3 +49,9 @@ En caso de utilizar PostgreSQL, deberás dejar el archivo correspondiente a la b
 
 -  Utilicé todo el arreglo en vez de enviar solamente los nombres
 -  `producto.handlebars` utiliza el nombre del producto y de la imagen
+
+## TODO
+
+-  Nav
+-  req 4
+-  Modal
