@@ -19,7 +19,7 @@ const jqueryDir = path.join(__dirname, "node_modules/jquery/dist/")
 const app = express()
 
 /*=============================================
-=         MIDDLEWARE & APP SETTINGS           =
+=         MIDDLEWARE & APP CONFIG             =
 =============================================*/
 app.use(express.static(path.join(__dirname, "public")))
 app.use("/bootstrap", express.static(bootstrapDir))

@@ -9,7 +9,6 @@ const indexCtrl = require("../controllers/index-controller")
 /*=============================================
 =                    INIT                     =
 =============================================*/
-
 const router = express.Router()
 
 /*=============================================

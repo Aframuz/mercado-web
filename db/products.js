@@ -1,3 +1,4 @@
+// Array with products
 exports.products = [
    {
       id: 1,

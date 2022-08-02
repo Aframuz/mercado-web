@@ -39,17 +39,14 @@ En caso de utilizar PostgreSQL, deberás dejar el archivo correspondiente a la b
 
 ### Dónde Encontrar Cada Requerimiento
 
-1. `/controllers/index-controller.js`
-2. `/views/index.handlebars`, contenido del menú `/views/partials/menu.handlebars`
-3. `/views/partials/producto.handlebars`
-4. ??
-5. `app.js`
+1. `/controllers/index-controller.js`. Controlador renderiza vista `index`.[Link a Controlador](https://github.com/Aframuz/mercado-web/blob/c1280c1424dd0c38f6a4a429e2270d2ece6a9efb/controllers/index-controller.js#L15)
+2. `/views/index.handlebars`, contenido del menú `/views/partials/menu.handlebars`. [Link a Menu](https://github.com/Aframuz/mercado-web/blob/main/views/partials/menu.handlebars)
+3. `/views/partials/producto.handlebars`. [Link a Producto](https://github.com/Aframuz/mercado-web/blob/main/views/partials/producto.handlebars)
+4. Rendericé el mensaje de bienvenida en `/views/index.handlebars` con un helper local de la ruta principal, la iteración para mostrar los productos está hecho en `/views/partials/dashboard.handlebars`. [Link a iteración](https://github.com/Aframuz/mercado-web/blob/c1280c1424dd0c38f6a4a429e2270d2ece6a9efb/views/partials/dashboard.handlebars#L2)
+5. `app.js`. [Link](https://github.com/Aframuz/mercado-web/blob/c1280c1424dd0c38f6a4a429e2270d2ece6a9efb/app.js#L16)
 
 ## Notas
 
 -  Utilicé todo el arreglo en vez de enviar solamente los nombres
 -  `producto.handlebars` utiliza el nombre del producto y de la imagen
-
-## TODO
-
--  req 4
+-  Tuve problemas con el requerimiento 4 debido a la estructura de `partials`
