@@ -7,6 +7,11 @@ body {
    background: linear-gradient(to right, #2c3e50, #2980b9);
 }
 
+h1 {
+   margin-bottom: 2.5rem;
+   font-weight: bold;
+   color: #fff;
+}
 .nav > .btn {
    background-color: #82ae67;
 }

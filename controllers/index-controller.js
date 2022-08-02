@@ -17,8 +17,8 @@ const get = async (req, res) => {
       title: "Come Sano, Come Fresco Spa",
       products,
       helpers: {
-         generateWelcomeMessage: (msg) => {
-            const wrapH1 = `<h1>${msg}</h1>`
+         createWelcomeMsg: (msg) => {
+            return `<h1>${msg}</h1>`
          },
       },
    })
